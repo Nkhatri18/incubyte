@@ -23,13 +23,13 @@ public class Gmail {
 	      //Click on 'Log in with Google'
 	      driver.findElement(By.xpath("//button[contains(@class,'bc-black-10')]")).click();
 	      
-	      //Provide your Email and Password
-	      driver.findElement(By.xpath("//input[@type='email']")).sendKeys("kcring9@gmail.com");
+	      //Provide your Google Email and Password
+	      driver.findElement(By.xpath("//input[@type='email']")).sendKeys("ENTER YOUR EMAIL");
 	      driver.findElement(By.className("VfPpkd-RLmnJb")).click();
 	      
 	      Thread.sleep(2000);
 	      
-	      driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Noyelling@1058");
+	      driver.findElement(By.xpath("//input[@type='password']")).sendKeys("ENTER YOUR PASSWORD");
 	      driver.findElement(By.className("VfPpkd-RLmnJb")).click();
 	      
 	      Thread.sleep(2000);
